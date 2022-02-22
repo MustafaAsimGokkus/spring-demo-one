@@ -1,5 +1,5 @@
 package com.luv2code.springdemo;
 
-public class Coach {
-
+public interface Coach {
+   public String getDailyWorkout();
 }

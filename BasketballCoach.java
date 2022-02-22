@@ -1,13 +1,11 @@
 package com.luv2code.springdemo;
 
-public class TrackCoach implements Coach {
+public class BasketballCoach implements Coach {
 
 	@Override
 	public String getDailyWorkout() {
 		
-		return "Run a hard 5k";
+		return "50 push up daily";
 	}
 
-	
-	
 }
