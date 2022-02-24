@@ -3,14 +3,12 @@ package com.luv2code.springdemo;
 public class MyApp {
 
 	public static void main(String[] args) {
-		// CREATE THE OBJECT
+
+		// create the object
 		Coach theCoach = new TrackCoach();
 		
-		
-		
-		//USE THE OBJECT
-		System.out.println(theCoach.getDailyWorkout());
-
+		// use the object
+		System.out.println(theCoach.getDailyWorkout());		
 	}
 
 }
